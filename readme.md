@@ -42,12 +42,12 @@
 
 <h3 align=center>
 
-Move-it é uma aplicação desenvolvida para a empresa **Verzel** durante o processo seletivo.
+taskAdmin é uma aplicação desenvolvida para a empresa **Verzel** durante o processo seletivo.
 
 </h3>
 
 <h1 align=center>
-  <img width="1000px"src="./assets/../src/assets/homepage.png" alt="Tela Web"/>
+  <img width="1000px"src="./front/src/assets/homepage.png" alt="Tela Web"/>
 </h1>
 
 
@@ -157,7 +157,7 @@ Aqui iremos instalar as dependências contidas nos arquivos `package.json`, que 
 # Instale as dependencias da API executando o comando:
 $ yarn install ou npm i
 
-# Faça a mesma coisa na pasta Frontend:
+# Faça a mesma coisa na pasta Front:
 $ yarn install ou npm i
 
 # Iniciando a api:
