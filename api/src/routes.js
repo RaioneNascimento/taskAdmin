@@ -16,7 +16,6 @@ routes.get('/profile', ProfileController.index);
 
 routes.get('/tasks', TaskController.index);
 routes.post('/tasks', TaskController.create);
-routes.put('/tasks/edit/:id', TaskController.show);
 routes.delete('/tasks/:id', TaskController.delete);
 
 module.exports = routes;

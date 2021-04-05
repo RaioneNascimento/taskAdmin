@@ -50,9 +50,9 @@ taskAdmin é uma aplicação desenvolvida para a empresa **Verzel** durante o pr
   <img width="1000px"src="./front/src/assets/homepage.png" alt="Tela Web"/>
 </h1>
 
-
+<!-- 
 ## 🔎 **Veja o projeto**
-Acesse a aplicação por aqui **[taskAdmin](https://taskadmin.raionenascimento.com.br/).**
+Acesse a aplicação por aqui **[taskAdmin](https://taskadmin.raionenascimento.com.br/).** -->
 
 
 ## 🚀 **Objetivo**

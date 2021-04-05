@@ -42,17 +42,6 @@ module.exports = {
     return response.json({ id });
   },
 
-  async show(request, response) {
-    const taskId = request.params.id
-
-    const task = task.data.find(task => Number(task.id) === Number(taskId))
-
-    if(!task) {
-      return response.send('Job not found!')
-    }
-      return response.render(pages + 'ShowTasks', { task })
-  },
-
   async delete(request, response) {
     const { id } = request.params;
     const user_id = request.headers.authorization;
