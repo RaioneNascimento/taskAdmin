@@ -67,10 +67,6 @@
   transition: 0.4s;
 }
 
-.profile-container ul li button:first-child {
-  right: 76px;
-}
-
 .profile-container ul li button:last-child {
   right: 24px;
 }

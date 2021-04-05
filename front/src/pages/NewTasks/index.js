@@ -4,7 +4,7 @@ import { FiArrowLeft } from 'react-icons/fi'
 import InputMask from 'react-input-mask';
 
 
-import api from '../../services/api'
+import api from '../../services/api';
 import configureStore from '../../store';
 import './styles.css'
 

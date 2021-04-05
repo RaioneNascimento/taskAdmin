@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { FiPower, FiTrash2, FiEdit2, FiCheck } from 'react-icons/fi';
+import { FiPower, FiTrash2, FiCheck } from 'react-icons/fi';
 
 import configureStore from '../../store';
 import api from '../../services/api';
@@ -39,28 +39,6 @@ export default function Profile() {
       return true;
     } 
   }
-
-  // async function handleEditTask(id, nome, description, dataEntrega, dataConclusao) {
-  //   if (window.confirm('Deseja alterar a tarefa?') === true) {
-  //     await api.put(`tasks/${id}`, {
-  //       headers: {
-  //         Authorization: userId,
-  //       }
-  //     });
-
-  //     console.log(handleEditTask(task.nome))
-      
-  //     setTasks(tasks.filter(task => task.id !== id)); 
-  //     setTasks(tasks.filter(task => task.nome !== nome)); 
-  //     setTasks(tasks.filter(task => task.description !== description)); 
-  //     setTasks(tasks.filter(task => task.dataEntrega !== dataEntrega)); 
-  //     setTasks(tasks.filter(task => task.dataConclusao !== dataConclusao)); 
-  //       alert('Tarefa alterar com sucesso.');
-  //     return true;
-  //   } else {
-  //       alert('Erro ao deletada tarefa.')
-  //   }
-  // }
 
   async function handleDeleteTask(id) {
     if (window.confirm('Deseja deletar a tarefa?') === true) {
@@ -115,10 +93,6 @@ export default function Profile() {
             <div className="buttons-container">
               <button onClick={() => handleCompleteTask(task.id)} type="button">
                 <FiCheck size={20} color="#28a745" />
-              </button>
-
-              <button type="button">
-                <FiEdit2 size={20} color="#007bff" />
               </button>
 
               <button onClick={() => handleDeleteTask(task.id)} type="button">

@@ -4,8 +4,7 @@ const app = express();
 const routes = require('./routes');
 const port = 3333
 
-const server = require('./server')
-
+const server = require('./server');
 
 app.use(cors());
 app.use(express.json());
